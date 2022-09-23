@@ -1,0 +1,76 @@
+html {
+  display: flex;
+  justify-content: center;
+}
+
+.calculator {
+  display: flex;
+  background-color: #3a3a3a;
+  flex-direction: column;
+  align-items: center;
+  width: 32vw;
+  height: 40vw;
+  border: solid #3a3a3a;
+  border-radius: 1vw;
+  margin: 4vw;
+}
+
+.screen {
+  display: flex;
+  text-align: end;
+  background-color: #6f8862;
+  width: 90%;
+  height: 5vw;
+  font-size: 3rem;
+  margin-top: 2vw;
+  border: solid #3a3a3a;
+  border-radius: 0.5vw;
+}
+
+.keyboard {
+  display: flex;
+  flex-direction: row;
+  padding: 0.5vw 0vw;
+}
+
+.left--upper {
+  display: flex;
+  flex-direction: row;
+}
+
+.row--1,
+.row--2,
+.row--3,
+.row--4 {
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  width: 6.4vw;
+  height: 5vw;
+  margin: 0.6vw;
+  border: solid #3a3a3a;
+  border-radius: 0.5vw;
+  background-color: #a5a5a5;
+  color: #dbdbdb;
+  font-size: 3vw;
+}
+
+.top--button {
+  background-color: #212121;
+}
+
+.equal {
+  height: 11.25vw;
+  background-color: #cf811a;
+}
+
+.zero {
+  width: 14vw;
+}
+
+button:hover {
+  background-color: #686868;
+  cursor: pointer;
+}

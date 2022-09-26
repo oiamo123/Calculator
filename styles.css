@@ -10,24 +10,24 @@ BUTTON HIGHLIGHT: #686868
 
 .calculator {
   margin: auto;
-  padding: 1.7rem;
+  padding: 2vw;
   border: none;
-  border-radius: 1rem;
+  border-radius: 1vw;
   height: 60vw;
   width: 45vw;
   background-color: #3a3a3a;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(6, 1fr);
-  column-gap: 1rem;
-  row-gap: 1.7rem;
+  column-gap: 1vw;
+  row-gap: 2vw;
 }
 
 .screen {
-  font-size: 2rem;
+  font-size: 2vw;
   text-align: end;
   border: #6f8862 solid 1px;
-  border-radius: 0.5rem;
+  border-radius: 0.5vw;
   grid-column: 1 / span 4;
   background-color: #6f8862;
 }
@@ -42,9 +42,9 @@ BUTTON HIGHLIGHT: #686868
 }
 
 button {
-  font-size: 2rem;
+  font-size: 2vw;
   border: none;
-  border-radius: 0.2rem;
+  border-radius: 0.2vw;
   background-color: #a5a5a5;
   color: white;
 }
